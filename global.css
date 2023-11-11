@@ -1,0 +1,107 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Utilisez min-height au lieu de height pour le centrage vertical */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bg-slate-800 {
+  background-color: #293852;
+}
+
+.bg-sky-900 {
+  background-color: #091f36;
+}
+
+.text-white {
+  color: #ead8d8;
+}
+
+.text-4xl {
+  font-size: 2.30rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.h-screen {
+  min-height: 100vh; /* Utilisez min-height au lieu de height pour le centrage vertical */
+}
+
+.text-xl {
+  font-size: 1.30rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.square {
+  background-color: #0b1f24;
+  border: 1px solid #000000;
+  float: left;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 150px;
+  height: 100x;
+  margin-right: 1px;
+  margin-top: 1px;
+  padding: 20;
+  text-align: center;
+  width: 50px;
+  border-radius: 9px; /* Ajout de bordures arrondies */
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display:table-row-group;
+}
+
+.status {
+  margin-bottom: 40px;
+  border-radius: 20px; /* Ajout de bordures arrondies */
+  padding: 22px; /* Ajout de marge intérieure */
+  background-color: #0b1f24; /* Couleur d'arrière-plan blanche */
+}
